@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Daily Solidity/_1_howtointializiedvalueinstatevariable.sol": "Identity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Daily Solidity/_1_howtointializiedvalueinstatevariable.sol": {
+			"keccak256": "0xeeff6bf3940d98ff719b4cab89a3cba933beb01b9c95c3ab234fa672293f8ac3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fc07a2dc8742c61b931a4544f902c8324ee058980d4f3f656ab30b117b0361ab",
+				"dweb:/ipfs/QmfF98ckp624EDYWzspw9X5bVtkpmfGs7NghtjG19uDHtg"
+			]
+		}
+	},
+	"version": 1
+}
