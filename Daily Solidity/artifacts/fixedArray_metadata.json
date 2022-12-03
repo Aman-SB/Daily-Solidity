@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Daily Solidity/_5_fixedSizearray.sol": "fixedArray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Daily Solidity/_5_fixedSizearray.sol": {
+			"keccak256": "0x925d13a4e93fd7140a660edb2f6f0754b9a35e9b25e843a919c14f7a88ecb0cb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://69c316c97c1bdf17131d83df431e4b1adc81bb0d54ef66cb7dd716d535cfb0c1",
+				"dweb:/ipfs/QmeB7G1KbBYmkzt1ZMUPNUGyhCsfTYCm3zGFJkCTyULvEz"
+			]
+		}
+	},
+	"version": 1
+}

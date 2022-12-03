@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "change",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Daily Solidity/_4_overflowANDunderflow.sol": "oveflow"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Daily Solidity/_4_overflowANDunderflow.sol": {
+			"keccak256": "0xea6c7ca50273bd00281efd1b374d392ba0c47d581e63e44f37df4f3edcff9442",
+			"urls": [
+				"bzzr://777fabcbf1c494e86ab91a20e057c2a52eb4d21c3d06acea57ab926be114810b"
+			]
+		}
+	},
+	"version": 1
+}
